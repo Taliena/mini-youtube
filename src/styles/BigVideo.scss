@@ -1,0 +1,42 @@
+.bigVideo {
+  &-videoWrapper {
+    width: 100%;
+    text-align: center;
+  }
+
+  &-video {
+    width: 80%;
+  }
+
+  &-description {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+
+    &_title{
+      font-size: 22px;
+      font-weight: 900;
+    }
+
+    &_likes {
+      font-style: italic;
+    }
+
+    &_text {
+      width: 80%;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    &_comments {
+      width: 80%;
+      margin: 2rem auto;
+      text-align: left;
+
+      &Title{
+        font-weight: bold;
+      }
+    }
+  }
+}

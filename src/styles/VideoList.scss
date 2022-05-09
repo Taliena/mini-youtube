@@ -1,0 +1,26 @@
+.videoList {
+  &-item {
+    display: flex;
+    padding: 12px 0;
+    cursor: pointer;
+
+    &_text {
+      padding: 0 6px;
+    }
+
+    &_img {
+      width: 50%;
+      height: 20vh;
+    }
+
+    &_title {
+      font-size: 18px;
+      font-weight: bolder;
+    }
+
+    &_description {
+      font-size: 14px;
+      font-style: italic;
+    }
+  }
+}

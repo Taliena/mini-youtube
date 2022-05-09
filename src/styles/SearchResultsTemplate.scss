@@ -1,0 +1,32 @@
+.search-template {
+  &Wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  &Item {
+    text-align: center;
+
+  }
+
+  &Img {
+    width: 150px;
+    height: 100px;
+
+  }
+  &Title {
+    font-size: 18px;
+    font-weight: bold;
+
+  }
+  &Discription {
+    font-size: 14px;
+    font-style: italic;
+
+  }
+}
+
+.search-emptyTemplate {
+  margin: 0 auto;
+  text-align: center;
+}
